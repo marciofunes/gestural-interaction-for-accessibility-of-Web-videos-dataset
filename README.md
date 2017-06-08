@@ -6,13 +6,13 @@ Dataset com os dados qualitativos coletados de 36 usuários que tiveram a oportu
 Geral
 ----------
 
-Dataset 1 | Questionário de Pré-Atividade
+Dataset1 | Questionário de Pré-Atividade
 ------------ | -------------
 Váriaveis | 16
 Tipo de váriaveis | usuarios, genero, idades, acuidadeVisual, recursoEspecial, escolaridade, utilizaComputador, acessoVideos, frequencia, dispositivo, programaLeitura, siteVideos, conteudoVideo, dificuldades, interageVideo, interageTipo, conhecerGestual
 
-Dataset 2 | Questionário de Pós-Atividade
------------- | ------------- | -------------
+Dataset2 | Questionário de Pós-Atividade
+------------ | -------------
 Váriaveis | 8
 Tipo de váriaveis | gestoGeral, gestoTarefas, dificuldadeMyo, dificuldade_myoTipo, pesonalizarGestos, usariaGestos, melhorMetodo, melhoriaAcessibilidade
 
