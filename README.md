@@ -20,6 +20,7 @@ Código R para a aplicação do MCA (Multiple Correspondence Analysis)
 ----------
 
 Fonte: http://gastonsanchez.com/visually-enforced/how-to/2012/10/13/MCA-in-R/
+
 Linguagem: R
 
 Instalação:
@@ -47,6 +48,8 @@ newdataset = dataset1[, c("genero","acuidadeVisual","recursoEspecial")]
 # Conferindo as variaveis selecionadas (opcional)
 head(newdataset)
 ```
+Resultado:
+
 usuário | genero | acuidadeVisual | recursoEspecial
 ------------ | ------------- | ------------- | ------------- 
 1   |   M | cegueira total  |   recurso_Sim
@@ -62,6 +65,8 @@ cats = apply(newteste, 2, function(x) nlevels(as.factor(x)))
 
 cats
 ```
+Resultado:
+
 genero | acuidadeVisual | recursoEspecial
 ------------ | ------------- | -------------
 2 | 5 | 2 
@@ -73,6 +78,8 @@ mca1 = MCA(newteste, graph = FALSE)
 # list of results
 mca1
 ```
+Resultado:
+
 ``` r
 **Results of the Multiple Correspondence Analysis (MCA)**
 The analysis was performed on 36 individuals, described by 3 variables
@@ -97,7 +104,9 @@ name              description
 # table of eigenvalues
 mca1$eig
 ```
-Tabela de 
+Resultado:
+
+Tabela de Autovalores
 
 Dimensões | Autovalores | Percentual de variância | Percentual de variância acumulada
 ------------ | ------------- | ------------- | -------------
