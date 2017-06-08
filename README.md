@@ -6,7 +6,7 @@ Dataset com os dados qualitativos coletados de 36 usuários que tiveram a oportu
 Descrição
 ----------
 
-Dataset 1 | Questionário de Pré-Atividade
+Dataset 2 | Questionário de Pós-Atividade
 ------------ | -------------
 Váriaveis | 16
 Tipo de váriaveis | usuarios, genero, idades, acuidadeVisual, recursoEspecial, escolaridade, utilizaComputador, acessoVideos, frequencia, dispositivo, programaLeitura, siteVideos, conteudoVideo, dificuldades, interageVideo, interageTipo, conhecerGestual
