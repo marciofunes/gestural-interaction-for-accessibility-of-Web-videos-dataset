@@ -108,7 +108,7 @@ dim 4 | 0.3333333     |         16.666667                 |         83.18122
 dim 5 | 0.2104994     |         10.524968        |                  93.70619
 dim 6 | 0.1258762     |          6.293809         |                100.00000
 
-Utilizando o ``` r ggplot2()``` para gerar gráficos 
+Utilizando o ggplot2() para gerar gráficos 
 -------
 ``` r
 # data frame with variable coordinates
@@ -127,7 +127,7 @@ ggplot(data=mca1_vars_df,
 ```
 ![alt text](https://github.com/marciofunes/gestural-interaction-for-accessibility-of-Web-videos-dataset/blob/master/plot1.png)
 
-Utilizando o ``` r geom_density2d() ``` para visualizar zonas de altamente concentração:
+Utilizando o geom_density2d() para visualizar zonas de altamente concentração:
 -------
 ``` r
 # MCA plot of observations and categories
