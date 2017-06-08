@@ -3,21 +3,21 @@ Gestural Interaction for Accessibility of Web videos Dataset
 
 Dataset com os dados qualitativos coletados de 36 usuários que tiveram a oportunidade de interagir com vídeos utilizando gestos
 
-Descrição
+Geral
 ----------
 
-Dataset 2 | Questionário de Pós-Atividade
+Dataset 1 | Questionário de Pré-Atividade
 ------------ | -------------
 Váriaveis | 16
 Tipo de váriaveis | usuarios, genero, idades, acuidadeVisual, recursoEspecial, escolaridade, utilizaComputador, acessoVideos, frequencia, dispositivo, programaLeitura, siteVideos, conteudoVideo, dificuldades, interageVideo, interageTipo, conhecerGestual
 
-
 Dataset 2 | Questionário de Pós-Atividade
------------- | -------------
+------------ | ------------- | -------------
 Váriaveis | 8
 Tipo de váriaveis | gestoGeral, gestoTarefas, dificuldadeMyo, dificuldade_myoTipo, pesonalizarGestos, usariaGestos, melhorMetodo, melhoriaAcessibilidade
 
 Código R para a aplicação do MCA (Multiple Correspondence Analysis)
+----------
 
 Fonte: http://gastonsanchez.com/visually-enforced/how-to/2012/10/13/MCA-in-R/
 Linguagem: R
@@ -108,7 +108,7 @@ dim 4 | 0.3333333     |         16.666667                 |         83.18122
 dim 5 | 0.2104994     |         10.524968        |                  93.70619
 dim 6 | 0.1258762     |          6.293809         |                100.00000
 
-Utilizando o ``` rggplot2()``` para gerar gráficos 
+Utilizando o ``` r ggplot2()``` para gerar gráficos 
 -------
 ``` r
 # data frame with variable coordinates
@@ -125,6 +125,8 @@ ggplot(data=mca1_vars_df,
   geom_text(aes(colour=Variable)) +
   ggtitle("MCA plot of variables using R package FactoMineR")
 ```
+![alt text](https://github.com/marciofunes/gestural-interaction-for-accessibility-of-Web-videos-dataset/blob/master/plot1.png)
+
 Utilizando o ``` r geom_density2d() ``` para visualizar zonas de altamente concentração:
 -------
 ``` r
@@ -140,3 +142,5 @@ ggplot(data = mca1_obs_df, aes(x = Dim.1, y = Dim.2)) +
   ggtitle("MCA aplicada ao Grupo 3 - Dados Quantitativos de Pré-Atividade") +
   scale_colour_discrete(name = "Variable")
   ```
+  ![alt text](https://github.com/marciofunes/gestural-interaction-for-accessibility-of-Web-videos-dataset/blob/master/plot2.png)
+
