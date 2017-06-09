@@ -37,7 +37,7 @@ Importando o Dataset:
 
 ``` r
 # Importando arquivo .csv
-dataset1<-read.csv("usuariosPre.csv")
+dataset1<-read.csv("dataset.csv")
 
 # Carregando o dataset selecionado
 data(list=dataset1)
