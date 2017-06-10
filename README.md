@@ -20,6 +20,8 @@ Código R para a aplicação do MCA (Multiple Correspondence Analysis)
 ----------
 
 Fonte: http://gastonsanchez.com/visually-enforced/how-to/2012/10/13/MCA-in-R/
+Fonte2: http://www.sthda.com/english/wiki/print.php?id=232
+Fonte3: http://www.sthda.com/english/wiki/correspondence-analysis-in-r-the-ultimate-guide-for-the-analysis-the-visualization-and-the-interpretation-r-software-and-data-mining#dimension-description
 
 Linguagem: R
 
